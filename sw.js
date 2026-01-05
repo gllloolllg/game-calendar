@@ -1,11 +1,11 @@
 const CACHE_NAME = 'date-adjustment-v1';
 const ASSETS_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/src/style.css',
-    '/src/main.js',
-    '/icon-192.png',
-    '/icon-512.png'
+    './',
+    './index.html',
+    './src/style.css',
+    './src/main.js',
+    './icon-192.png',
+    './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {

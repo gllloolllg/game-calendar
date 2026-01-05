@@ -10,22 +10,21 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="src/style.css">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./favicon.ico">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="theme-color" content="#ffffff" />
-  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="./icon-192.png">
 </head>
 
 <body>
   <div id="app"></div>
-  <script type="module" src="src/main.js"></script>
+  <script type="module" src="./src/main.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js')
+        navigator.serviceWorker.register('./sw.js')
           .then((registration) => {
             console.log('ServiceWorker registration successful with scope: ', registration.scope);
           }, (err) => {
@@ -36,6 +35,4 @@
   </script>
 </body>
 
-
 </html>
-
