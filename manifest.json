@@ -1,7 +1,8 @@
 {
   "name": "日程調整",
   "short_name": "日程調整",
-  "start_url": "./",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f8f9fc",
   "theme_color": "#6366f1",
